@@ -51,7 +51,7 @@ export function codeLogin(params) {
  */
 export function getUserInfo(token) {
   return request({
-    url: 'authentication/user/info',
+    url: '/user/info',
     method: 'get'
   })
 }

@@ -53,7 +53,7 @@ export default {
     return {
       loading: true,
       current: 1,
-      size: 15,
+      size: 2,
       total: 0,
       value2: true,
       userList: []
