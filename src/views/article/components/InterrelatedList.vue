@@ -39,7 +39,7 @@ export default {
   methods: {
 
     init() {
-      const params = { articleId: this.articleId, limit: 8 }
+      const params = { articleId: this.articleId, limit: 5 }
       interrelated(params).then(
         res => {
           this.loading = false
