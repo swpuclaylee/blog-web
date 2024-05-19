@@ -53,20 +53,20 @@
         <span class="btn" @click="privacy">隐私政策</span>
       </span>
     </p>
-    <div class="third-login">
-      <p class="name">社交账号登录</p>
-      <div class="icon-box">
-        <a href="https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id=101881036&redirect_uri=https://www.poile.cn/oauth&state=1">
-          <svg-icon icon-class="qq-login" class="icon" />
-        </a>
-        <a href="https://github.com/login/oauth/authorize?client_id=bded74b0f0213e6d1a85&scope=user:email&state=2">
-          <svg-icon icon-class="github-login" class="icon" />
-        </a>
-        <a href="https://gitee.com/oauth/authorize?client_id=18348ed893d47d047a79fb0a395fe1c8c481720021096bc5afe2a90a4e6ec557&redirect_uri=https%3A%2F%2Fwww.poile.cn%2Foauth&response_type=code&state=3">
-          <svg-icon icon-class="gitee-login" class="icon" />
-        </a>
-      </div>
-    </div>
+<!--    <div class="third-login">-->
+<!--      <p class="name">社交账号登录</p>-->
+<!--      <div class="icon-box">-->
+<!--        <a href="https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id=101881036&redirect_uri=https://www.poile.cn/oauth&state=1">-->
+<!--          <svg-icon icon-class="qq-login" class="icon" />-->
+<!--        </a>-->
+<!--        <a href="https://github.com/login/oauth/authorize?client_id=bded74b0f0213e6d1a85&scope=user:email&state=2">-->
+<!--          <svg-icon icon-class="github-login" class="icon" />-->
+<!--        </a>-->
+<!--        <a href="https://gitee.com/oauth/authorize?client_id=18348ed893d47d047a79fb0a395fe1c8c481720021096bc5afe2a90a4e6ec557&redirect_uri=https%3A%2F%2Fwww.poile.cn%2Foauth&response_type=code&state=3">-->
+<!--          <svg-icon icon-class="gitee-login" class="icon" />-->
+<!--        </a>-->
+<!--      </div>-->
+<!--    </div>-->
   </el-dialog>
 </template>
 
