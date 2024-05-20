@@ -26,7 +26,7 @@ export function addComment(params) {
  */
 export function addReply(params) {
   return request({
-    url: '/article/reply/add',
+    url: '/article/comment/reply/add',
     method: 'post',
     params: params
   })
@@ -45,7 +45,7 @@ export function deleteComment(params) {
  * @param {Object} params
  */
 export function deleteReply(params) {
-  return request.delete('/article/reply/delete', { params })
+  return request.delete('/article/comment/reply/delete', { params })
 }
 
 /**
