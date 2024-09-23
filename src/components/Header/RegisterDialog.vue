@@ -37,7 +37,8 @@
 import { sendCode } from '@/api/code.js'
 import { register } from '@/api/user.js'
 import { validMobile } from '@/utils/validate.js'
-import sha256 from 'crypto-js/sha256'
+// import sha256 from 'crypto-js/sha256'
+
 export default {
   data() {
     return {

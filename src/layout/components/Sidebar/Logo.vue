@@ -24,7 +24,7 @@ export default {
   },
   data() {
     return {
-      title: '云初的博客',
+      title: 'clay的博客',
       logo: 'https://poile-img.nos-eastchina1.126.net/white-logo.png'
     }
   }

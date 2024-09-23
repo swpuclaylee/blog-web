@@ -26,7 +26,7 @@ export function pageArticle(params) {
 
 /**
  * 状态修改
- * @param {Object} params 
+ * @param {Object} params
  */
 export function updateStatus(params) {
   return request({

@@ -24,7 +24,7 @@
             </el-dropdown>
           </div>
           <img class="logo-img" src="https://poile-img.nos-eastchina1.126.net/logo.png">
-          <span class="logo-title">云初的博客</span>
+          <span class="logo-title">clay的博客</span>
         </div>
 
         <nav class="main-nav">

@@ -1,6 +1,6 @@
 module.exports = {
 
-  title: '云初的博客',
+  title: 'clay的博客',
 
   /**
    * @type {boolean} true | false
